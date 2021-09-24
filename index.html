@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Palak's website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Montserrat:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="nav-logo">PALAK</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#cooking" class="nav-link">Food</a>
+        </li>
+        <li class="nav-item">
+          <a href="#art" class="nav-link">Artwork</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="top">
+    <img src="Images/bg5.jpg" class="bg">
+    <h1>Hello, there !!</h1><br>
+    <h3 class="head">Welcome !!</h3><br><br>
+  </div>
+
+  <div class="a" id="skills">
+    <h3>My Skills</h3>
+    <hr>
+    <p>I am an enthusiastic programmer who loves representing everything that I imagine, through coding .</p>
+    <div class="row">
+      <div class="column">
+        <img src="Images/java1.jpg" alt="Snow" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/spring.jpg" alt="Forest" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/aws.jpg" alt="Mountains" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/html.jpg" alt="Mountains" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="a" id="cooking">
+    <h3>My Cooking</h3>
+    <hr>
+    <p>I am fond of preparing delicious meal which I think is the only way to reach the heart of our loved ones.</p>
+    <div class="row">
+      <div class="column">
+        <img src="Images/rice.jpg" alt="Snow" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/tikki.jpg" alt="Forest" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/tomato.jpg" alt="Mountains" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/dosa.jpg" alt="Mountains" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="a" id="art">
+    <h3>My Artwork</h3>
+    <hr>
+    <p>I love various forms of Artwork, one of which is Mandala Art. This is very close to my
+      heart.</p>
+    <div class="row">
+      <div class="column">
+        <img src="Images/env1.jpg" alt="Forest" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/girl.jpg" alt="Snow" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/owl.jpg" alt="Mountains" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Images/doll.jpg" alt="Mountains" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contact">
+
+
+    <p>.</p>
+    <p>Thanks, for visiting my page. I hope you like my content, for any queries please drop a mail by clicking below
+      button.
+    </p>
+    <p><a class="btn" id="contact" href="mailto:palakbhawsar5@gmail.com">CONTACT ME</a></p>
+  </div>
+
+  <footer>
+    © Copyright 2021 Palak Bhawsar
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
